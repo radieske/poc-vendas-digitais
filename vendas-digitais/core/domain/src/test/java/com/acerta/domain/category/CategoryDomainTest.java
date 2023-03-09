@@ -1,4 +1,4 @@
-package com.acerta.domain;
+package com.acerta.domain.category;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;

@@ -1,4 +1,4 @@
-package com.acerta.category.create;
+package com.acerta.application.category.create.useCase.commands.create;
 
 public class CreateCategoryCommand {
     private String name;

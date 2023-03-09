@@ -1,4 +1,4 @@
-package com.acerta.category.create;
+package com.acerta.application.category.create.useCase.commands.create;
 
 import com.acerta.domain.category.CategoryDomain;
 import com.acerta.domain.category.gateway.CategoryDomainGateway;

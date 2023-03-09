@@ -204,6 +204,7 @@
   <modules>
       
     <module>core/domain</module>
+    <module>core/application</module>
       
   </modules>
 </project>

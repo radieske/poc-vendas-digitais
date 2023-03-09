@@ -15,13 +15,15 @@ public class CategoryDomain {
     this.name = name;
     this.createdAt = createdAt;
     this.updatedAt = updatedAt;
+
+    this.validate();
   }
 
   public static CategoryDomain create(String name) {
     String id = UUID.randomUUID().toString();
     LocalDateTime now = LocalDateTime.now();
 
-    return new CategoryDomain(id, name, now, now);
+    return new CategoryDomain(id, name, now, null);
   }
 
   public static CategoryDomain with(String id, String name, LocalDateTime createdAt, LocalDateTime updatedAt) {

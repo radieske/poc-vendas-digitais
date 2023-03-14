@@ -206,6 +206,7 @@
     <module>core/domain</module>
     <module>core/application</module>
     <module>infrastructure/dataproviders/sql/postgre/jpa</module>
+    <module>infrastructure/webserver/rest</module>
       
   </modules>
 </project>

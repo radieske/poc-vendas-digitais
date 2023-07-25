@@ -14,4 +14,6 @@ public class CreateCategoryOutput {
     public String getId() {
         return this.id;
     }
+
+    
 }
